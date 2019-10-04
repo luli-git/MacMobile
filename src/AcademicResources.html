@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="plt-tablet plt-desktop md hydrated" mode="md">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,14 +13,72 @@
 </head>
 <body>
     <ion-app>
-        <ion-header>
-            <ion-toolbar style="--ion-background-color:#01426A;">
+        <ion-header class="md header-md hydrated">
+            <ion-toolbar class="md hydrated" style="--ion-background-color:#01426A;">
                 <ion-title style="text-align: center; --color: white;">Academic Resources</ion-title>
             </ion-toolbar>
-     </ion-header>
+        </ion-header>
+
+        <ion-content>
+          <ion-grid>
+              <ion-row>
+                  <ion-col size-md="6" offset-md="3">
+                          <ion-card>
+                                  <ion-card-content style="padding: 0; height: 105px; background-image: url(assets/images/1600.jpg); background-size:100% 100%;">
+                                    <a href="#" style="text-decoration: none; text-align: center;">
+                                      <p style="color: white; font: bold 30px Georgia; line-height: 100px">1600 Grand</p>
+                                    </a>
+                                  </ion-card-content>               
+                          </ion-card>
+                  </ion-col>
+              </ion-row>
+
+              <ion-row>
+                <ion-col size-md="6" offset-md="3">
+                        <ion-card>
+                            <ion-card-content style="padding: 0; height: 105px; background-image: url(assets/images/moodle.jpg); background-size:100% 100%;">
+                                <a href="#" style="text-decoration: none; text-align: center;">
+                                  <p style="color: white; font: bold 30px Georgia; line-height: 100px">Moodle</p>
+                                </a>
+                            </ion-card-content>               
+                          </ion-card>
+                </ion-col>
+            </ion-row>
+
+            <ion-row>
+              <ion-col size-md="6" offset-md="3">
+                      <ion-card>
+                          <ion-card-content style="padding: 0; height: 105px; background-image: url(assets/images/classSchedule.jpg); background-size:100% 100%;">
+                              <a href="#" style="text-decoration: none; text-align: center;">
+                                <p style="color: white; font: bold 30px Georgia; line-height: 100px">Class Schedule</p>
+                              </a>
+                          </ion-card-content>               
+                        </ion-card>
+              </ion-col>
+          </ion-row>
+
+          <ion-row>
+            <ion-col size-md="6" offset-md="3">
+                    <ion-card>
+                        <ion-card-content style="padding: 0; height: 105px; background-image: url(assets/images/academicCalendar.jpg); background-size:100% 100%;">
+                            <a href="#" style="text-decoration: none; text-align: center;">
+                              <p style="color: white; font: bold 30px Georgia; line-height: 100px">Academic Calendar</p>
+                            </a>
+                        </ion-card-content>               
+                      </ion-card>
+            </ion-col>
+        </ion-row>
+
+
+
+
+          </ion-grid>
+      
+      </ion-content>
+
+
 
      <ion-tabs>
-
         <ion-tab-bar slot="bottom">
           <ion-tab-button tab="Dining">
             <ion-icon name="restaurant"></ion-icon>
