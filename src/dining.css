@@ -1,0 +1,17 @@
+.diningpic {
+    width: 120px ;
+    height: 94px ;
+    padding: 20px;
+    border-radius: 25px
+}
+.diningpicposition {
+    width: 5px ;
+    height: 20px ;
+    border-radius: 50%;
+}
+
+.diningFont {
+    color: black;
+    font: 23 px Georgia; 
+    line-height: 5px"
+}
