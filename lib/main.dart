@@ -11,10 +11,11 @@ class Bookkeeper extends StatelessWidget {
         length: 5,
         child: Scaffold(
           appBar: AppBar(
-            backgroundColor: Color(0xFF3F5AA6),
-            title: Text("Macalester", style: TextStyle(fontSize: 30,
-                fontWeight: FontWeight.bold,
-                fontFamily: 'Sans Serif'),), centerTitle: true,
+            backgroundColor: Color(0xFF01426A),
+            title: Image.asset('assets/images/maclogo.jpg', fit: BoxFit.contain)
+            // title: Text("Macalester", style: TextStyle(fontSize: 30,
+            //     fontWeight: FontWeight.normal,
+            //     fontFamily: 'Georgia'),), centerTitle: true,
           ),
           bottomNavigationBar: menu(),
           body: TabBarView(
@@ -67,7 +68,7 @@ class Bookkeeper extends StatelessWidget {
 
   Widget menu() {
     return Container(
-      color: Color(0xFF3F5AA6),
+      color: Color(0xFF01426A),
       child: TabBar(
         labelColor: Colors.white,
         unselectedLabelColor: Colors.white70,
