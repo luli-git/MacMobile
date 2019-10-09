@@ -1,0 +1,4 @@
+#Mon Oct 07 17:13:02 EDT 2019
+base.0=/Users/zacharyfried/AndroidStudioProjects/mac_mobile_attempt/build/app/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,4 @@
+com.example.mac_mobile_attempt
+drawable launch_background
+mipmap ic_launcher
+style LaunchTheme
