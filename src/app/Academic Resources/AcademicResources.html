@@ -23,8 +23,8 @@
           <ion-grid>
               <ion-row>
                   <ion-col size-md="6" offset-md="3">
-                          <ion-card>
-                                  <ion-card-content style="padding: 0; height: 105px; background-image: url(assets/images/1600.jpg); background-size:100% 100%;">
+                          <ion-card (click)="btnClicked()">
+                                  <ion-card-content style="padding: 0; height: 105fitpx; background-image: url(assets/images/1600.jpg); background-size:100% 100%;">
                                     <a href="#" style="text-decoration: none; text-align: center;">
                                       <p style="color: white; font: bold 30px Georgia; line-height: 100px">1600 Grand</p>
                                     </a>
@@ -35,8 +35,8 @@
 
               <ion-row>
                 <ion-col size-md="6" offset-md="3">
-                        <ion-card>
-                            <ion-card-content style="padding: 0; height: 105px; background-image: url(assets/images/moodle.jpg); background-size:100% 100%;">
+                        <ion-card> 
+                            <ion-card-content style="padding: 0; height: 105px; background-image: url(assets/images/moodle.jpg); background-size:100% 100%">
                                 <a href="#" style="text-decoration: none; text-align: center;">
                                   <p style="color: white; font: bold 30px Georgia; line-height: 100px">Moodle</p>
                                 </a>
@@ -48,6 +48,7 @@
             <ion-row>
               <ion-col size-md="6" offset-md="3">
                       <ion-card>
+
                           <ion-card-content style="padding: 0; height: 105px; background-image: url(assets/images/classSchedule.jpg); background-size:100% 100%;">
                               <a href="#" style="text-decoration: none; text-align: center;">
                                 <p style="color: white; font: bold 30px Georgia; line-height: 100px">Class Schedule</p>
